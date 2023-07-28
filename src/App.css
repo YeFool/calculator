@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: 'Tektur', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  border: solid 1px black;
+  width: 700px;
+  height: 235px;
+  background-color: rgb(25, 29, 43); 
+  border: 8px;
+  border-style: ridge;
+  border-radius: 8px;
+  border-color: rgb(223, 5, 5);
+  margin-top: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result {
+  display: flex;
+  border: solid 1px black;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+  max-width: 700px;
+  font-size: xx-large
+}
+
+.numbers, .operations{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+button{
+  background-color: rgb(157, 201, 240);
+  height: 70px;
+  width: 70px;
+  font-family: 'Tektur', cursive;
+  font-size: larger;
 }
